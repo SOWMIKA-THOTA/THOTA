@@ -25,10 +25,9 @@ class program3
 	}
 	if(i==1)
 	System.out.println(" character "+ch+" is  Vowel");
-	else 
-		if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
-		System.out.println("character "+ch+" is Consonent");
-		else
-		System.out.println("invalid");		
+	else if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+        System.out.println("character "+ch+" is Consonent");
+	else
+	System.out.println("invalid");		
 	}
 }
